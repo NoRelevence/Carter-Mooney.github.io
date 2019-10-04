@@ -1,0 +1,177 @@
+header{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	width: 800px;
+ 	margin: 40px auto;
+}
+
+ header img{
+	max-width: 100%;
+	width: 75px;
+	height: 75px;
+	vertical-align: middle;
+}
+h2{
+ 	font-family: Poppins, Roboto, sans-serif;
+ 	font-weight: 600;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	padding-bottom: .2em;
+ }
+.footer{
+  font-size: 25px;
+  margin-left: 260px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: Roboto, sans-serif;
+}
+p{
+	text-align: center;
+	font-weight: 300;
+	font-family: Poppins, sans-serif;
+	font-size: 12px;
+	padding-bottom: 2em;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+* {margin: 0; padding: 0;}
+
+.parallax {
+    background-image: url("photos/logo.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .parallax-2 {
+  	background-image: url("photos/softeng.jpg");
+  }
+  .parallax-3{
+  	background-image: url("photos/manholecover.jpg");
+  }
+.limit-width {
+	padding:1em;
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+}
+
+header h1 {
+ text-align: center;
+ font: 100 60px/1.5 Poppins, Verdana, sans-serif;
+ 
+}
+ 
+header p {
+ font: 100 15px/1.5 Roboto, Verdana, sans-serif;
+ text-align: center;
+}
+ 
+/*photobanner*/
+ 
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+ .photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+ 
+.photobanner img {
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+/*keyframe animations*/
+.first {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }

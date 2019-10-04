@@ -1,0 +1,83 @@
+.parallax {
+    background-image: url("images/52ha.gif");
+    min-height: 900px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .parallax-2 {
+  	background-image: url("images/bigtime.jpg");
+  }
+  .parallax-3{
+  	background-image: url("images/weight.png");
+  }
+  .parallax-4{
+  	background-image: url("images/form and structure.jpg");
+  }
+  .parallax-5{
+  	background-image: url("images/texture.jpg");
+  }
+  .parallax-6{
+  	background-image: url("images/colour.jpg");
+  }
+  .parallax-7{
+  	background-image: url("images/direction.jpg");
+  }
+body{
+	background-color: #EFEFF7;
+	margin:0;
+	padding:0;
+}
+.limit-width {
+	padding:1em;
+	max-width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	color: white;
+	font-family: Roboto Slab,sans-serif;
+	font-size: 80px;
+	text-align: center;
+	background-color: #898989;
+}
+p{
+	color: #898989;
+	font-size: 15px;
+	margin-left: 20px;
+	font-family: 'Merriweather', serif;
+	line-height: 1.8;
+}
+em{
+	color: white;
+	margin-left: 70%;
+	background-color: #898989;
+}
+ul{
+	background-color: #898989;
+	color: white;
+	margin-left: 20px;
+	font-family: 'Merriweather', serif;
+}
+h2{
+	color: white;
+	background-color: #898989; 
+	font-family: Roboto Slab, sans-serif;
+	font-size: 60px;
+	letter-spacing: 0.09em;
+	text-align: center;
+}
+h3{
+	color: white;
+	text-indent: 20px;
+	background-color: #898989;
+	font-family: Roboto Slab, sans-serif;
+	font-size: 26px;
+	letter-spacing: 0.09em;
+}
+.finally{
+	background-color: #d3d3d3;
+}

@@ -1,0 +1,59 @@
+header{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	width: 800px;
+ 	margin: 40px auto;
+ }
+ header img{
+	vertical-align: middle;
+	max-width: 100%;
+	width: 75px;
+	height: 75px;
+ }
+ p{
+	font-weight: 400;
+	font-family: Poppins, Roboto, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+ }
+ h1{
+ 	text-align: center;
+ 	font-family: Poppins, Roboto, sans-serif;
+ 	font-size: 50px;
+ 	font-weight: 400;
+ }
+ .socials{
+ 	font-family: Poppins, Roboto, sans-serif;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	margin-top: 100px;
+ }
+ .socials img{
+ 	vertical-align: middle;
+ 	width: 30px;
+ 	height: 30px;
+ }
+ a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+article{
+	display: flex;
+	flex-direction: row-reverse;
+}
+section{
+	width: 100%;
+	padding: 1em;
+	color: grey;
+}
+.image img{
+	width: 700px;
+	height: 400px;
+}

@@ -1,0 +1,93 @@
+header{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	width: 800px;
+ 	margin: 40px auto;
+ }
+ header img{
+	vertical-align: middle;
+	max-width: 100%;
+	width: 75px;
+	height: 75px;
+ }
+ h2{
+ 	font-family: Poppins, Roboto, sans-serif;
+ 	font-size: 50px;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	margin-top: 100px;
+ }
+ a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+.parallax {
+    background-image: url("photos/Window.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Poppins, Roboto, sans-serif;
+  }
+  .parallax-2 {
+  	background-image: url("photos/street.jpg");
+  }
+  .parallax-3{
+  	background-image: url("photos/manholecover.jpg");
+  }
+  .parallax-4 {
+  	background-image: url("photos/waterfall.jpg");
+  }
+  .parallax-5{
+  	background-image: url("photos/clear.jpg");
+  }
+  .secondrow{
+  	margin-left: 260px;
+  	margin-top: 100px;
+  }
+  .imagegallery{
+	margin-left: 260px;
+	margin-top: 100px;
+	margin-bottom: 300px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.footer{
+	font-size: 25px;
+	margin-left: 260px;
+	margin-top: 650px;
+	margin-bottom: 100px;
+	font-family: Roboto, sans-serif;
+}

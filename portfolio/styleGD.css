@@ -1,0 +1,99 @@
+header{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400px;
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	width: 800px;
+ 	margin: 40px auto;
+ }
+ header img{
+	vertical-align: middle;
+	max-width: 100%;
+	width: 75px;
+	height: 75px;
+ }
+ a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+h1{
+	text-align: center;
+	font-weight: 600;
+	font-family: Poppins, Roboto, sans-serif;
+}
+p{
+	text-align: left;
+	font-weight: 400;
+	font-family: Poppins, Roboto, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2{
+	text-align: center;
+	font-weight: 400;
+	font-family: Poppins, Roboto, sans-serif;
+	font-size: 40px;
+}
+.footer{
+	font-size: 25px;
+	margin-left: 260px;
+	margin-top: 350px;
+	margin-bottom: 100px;
+	font-family: Roboto, sans-serif;
+}
+
+.parallax{
+	background-image: url("photos/illustrator.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parallax-2{
+	background-image: url("photos/panning.jpg");
+}
+article{
+	display: flex;
+	flex-direction: row-reverse;
+}
+section{
+	width: 50%;
+	padding: 1em;
+	color: grey;
+}
+.image img{
+	width: 647.7px;
+	height: 500px;
+}
+.imagegallery{
+	margin-left: 260px;
+	margin-top: 50px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
